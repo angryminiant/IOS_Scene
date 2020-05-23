@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SceneSwift/SceneSwift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SceneDemo/SceneDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OpenInstall/OpenInstall.xcodeproj">
+   </FileRef>
+</Workspace>

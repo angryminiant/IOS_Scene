@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4558E09524750863005DFA91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558E09424750863005DFA91 /* AppDelegate.m */; };
+		4558E09824750863005DFA91 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558E09724750863005DFA91 /* SceneDelegate.m */; };
+		4558E09B24750863005DFA91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558E09A24750863005DFA91 /* ViewController.m */; };
+		4558E09E24750863005DFA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4558E09C24750863005DFA91 /* Main.storyboard */; };
+		4558E0A024750864005DFA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4558E09F24750864005DFA91 /* Assets.xcassets */; };
+		4558E0A324750864005DFA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4558E0A124750864005DFA91 /* LaunchScreen.storyboard */; };
+		4558E0A624750865005DFA91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558E0A524750865005DFA91 /* main.m */; };
+		4558E0FA247509D4005DFA91 /* libOpenInstallSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4558E0F7247509D4005DFA91 /* libOpenInstallSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4558E09024750863005DFA91 /* OpenInstall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInstall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4558E09324750863005DFA91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4558E09424750863005DFA91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4558E09624750863005DFA91 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4558E09724750863005DFA91 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4558E09924750863005DFA91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4558E09A24750863005DFA91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4558E09D24750863005DFA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4558E09F24750864005DFA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4558E0A224750864005DFA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4558E0A424750865005DFA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4558E0A524750865005DFA91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4558E0F7247509D4005DFA91 /* libOpenInstallSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOpenInstallSDK.a; sourceTree = "<group>"; };
+		4558E0F8247509D4005DFA91 /* OpeninstallData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeninstallData.h; sourceTree = "<group>"; };
+		4558E0F9247509D4005DFA91 /* OpenInstallSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenInstallSDK.h; sourceTree = "<group>"; };
+		4558E0FB24750A92005DFA91 /* OpenInstall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenInstall.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4558E08D24750863005DFA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4558E0FA247509D4005DFA91 /* libOpenInstallSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4558E08724750863005DFA91 = {
+			isa = PBXGroup;
+			children = (
+				4558E09224750863005DFA91 /* OpenInstall */,
+				4558E09124750863005DFA91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4558E09124750863005DFA91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4558E09024750863005DFA91 /* OpenInstall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4558E09224750863005DFA91 /* OpenInstall */ = {
+			isa = PBXGroup;
+			children = (
+				4558E0FB24750A92005DFA91 /* OpenInstall.entitlements */,
+				4558E0F6247509D4005DFA91 /* OpenInstallSDK2.3.1 */,
+				4558E09324750863005DFA91 /* AppDelegate.h */,
+				4558E09424750863005DFA91 /* AppDelegate.m */,
+				4558E09624750863005DFA91 /* SceneDelegate.h */,
+				4558E09724750863005DFA91 /* SceneDelegate.m */,
+				4558E09924750863005DFA91 /* ViewController.h */,
+				4558E09A24750863005DFA91 /* ViewController.m */,
+				4558E09C24750863005DFA91 /* Main.storyboard */,
+				4558E09F24750864005DFA91 /* Assets.xcassets */,
+				4558E0A124750864005DFA91 /* LaunchScreen.storyboard */,
+				4558E0A424750865005DFA91 /* Info.plist */,
+				4558E0A524750865005DFA91 /* main.m */,
+			);
+			path = OpenInstall;
+			sourceTree = "<group>";
+		};
+		4558E0F6247509D4005DFA91 /* OpenInstallSDK2.3.1 */ = {
+			isa = PBXGroup;
+			children = (
+				4558E0F7247509D4005DFA91 /* libOpenInstallSDK.a */,
+				4558E0F8247509D4005DFA91 /* OpeninstallData.h */,
+				4558E0F9247509D4005DFA91 /* OpenInstallSDK.h */,
+			);
+			path = OpenInstallSDK2.3.1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4558E08F24750863005DFA91 /* OpenInstall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4558E0A924750865005DFA91 /* Build configuration list for PBXNativeTarget "OpenInstall" */;
+			buildPhases = (
+				4558E08C24750863005DFA91 /* Sources */,
+				4558E08D24750863005DFA91 /* Frameworks */,
+				4558E08E24750863005DFA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenInstall;
+			productName = OpenInstall;
+			productReference = 4558E09024750863005DFA91 /* OpenInstall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4558E08824750863005DFA91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = com.hefeichenye;
+				TargetAttributes = {
+					4558E08F24750863005DFA91 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4558E08B24750863005DFA91 /* Build configuration list for PBXProject "OpenInstall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4558E08724750863005DFA91;
+			productRefGroup = 4558E09124750863005DFA91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4558E08F24750863005DFA91 /* OpenInstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4558E08E24750863005DFA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4558E0A324750864005DFA91 /* LaunchScreen.storyboard in Resources */,
+				4558E0A024750864005DFA91 /* Assets.xcassets in Resources */,
+				4558E09E24750863005DFA91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4558E08C24750863005DFA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4558E09B24750863005DFA91 /* ViewController.m in Sources */,
+				4558E09524750863005DFA91 /* AppDelegate.m in Sources */,
+				4558E0A624750865005DFA91 /* main.m in Sources */,
+				4558E09824750863005DFA91 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4558E09C24750863005DFA91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4558E09D24750863005DFA91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4558E0A124750864005DFA91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4558E0A224750864005DFA91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4558E0A724750865005DFA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4558E0A824750865005DFA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4558E0AA24750865005DFA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenInstall/OpenInstall.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV59255865;
+				INFOPLIST_FILE = OpenInstall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenInstall/OpenInstallSDK2.3.1",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhuizhihu.app.quanmama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4558E0AB24750865005DFA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenInstall/OpenInstall.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV59255865;
+				INFOPLIST_FILE = OpenInstall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenInstall/OpenInstallSDK2.3.1",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anhuizhihu.app.quanmama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4558E08B24750863005DFA91 /* Build configuration list for PBXProject "OpenInstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4558E0A724750865005DFA91 /* Debug */,
+				4558E0A824750865005DFA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4558E0A924750865005DFA91 /* Build configuration list for PBXNativeTarget "OpenInstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4558E0AA24750865005DFA91 /* Debug */,
+				4558E0AB24750865005DFA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4558E08824750863005DFA91 /* Project object */;
+}
